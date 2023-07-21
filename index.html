@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de tarefas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <header>
+      <div class="container">
+      <i id="icone_header" class="material-symbols-outlined">contract_edit</i>
+        <h1>Lista de tarefas</h1>
+      </div>
+    </header>
+    
+    <form id="form-tarefa">         
+      <input type="text" id="nome-tarefa" required placeholder="Nome da tarefa" />
+      <button id="botao_tarefa" type="submit"> Adicionar <span class="material-symbols-outlined"> add_task </span> </button>
+  </form>
+  
+    <div id="topo-lista"><h2><u>Tarefas:</u></h2></div>
+    <div class="container">
+    
+    <ul id="LISTA">
+    
+    </ul>
+  
+  </div>
+  <div id="instrucao">Utilize o formulário para adionar uma tarefa</td>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

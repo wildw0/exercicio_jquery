@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: rgb(0, 149, 255);
+  padding: 60px;
+      --mask:
+      radial-gradient(46.96px at 50% calc(100% - 63.00px),#000 99%,#0000 101%) calc(50% - 42px) 0/84px 100%,
+      radial-gradient(46.96px at 50% calc(100% + 42.00px),#0000 99%,#000 101%) 50% calc(100% - 21px)/84px 100% repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+}
+
+.container{
+  display: flex;
+}
+
+body {
+  background-color: rgba(0, 119, 255, 0.46);
+}
+
+form {
+  display: inline-flex;
+  max-width: 640px;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-left: 60px;   
+}
+
+form input {
+  font-size: 20px;
+  background-color: #fff;
+  border: 4px solid rgb(0, 149, 255);
+  margin-right: 8px;  
+}
+
+#icone_header {
+  font-size: 300% !important;
+  margin-right: 8px;
+}
+
+#botao_tarefa {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  align-self: center;
+  display: inline-flex;
+  cursor: pointer;    
+  border: 1px solid green;
+}
+#botao_tarefa .material-symbols-outlined {
+  font-size: 15px !important;
+  align-self: center;
+  font-weight: bold;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#topo-lista {
+  text-align: left;
+  margin-bottom: 16px;
+  margin-left: 60px;
+}
+
+#instrucao {
+  font-weight: bold;
+  margin-top: 16px;
+  margin-left: 60px;
+  font-size: 75%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#LISTA {
+  font-weight: bold;
+  margin-top: 16px;
+  margin-left: 60px;
+  font-size: 100%;
+  color: black;
+  list-style: none;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: red;
+}
